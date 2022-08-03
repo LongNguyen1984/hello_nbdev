@@ -26,4 +26,6 @@ d = { 'settings': { 'audience': 'Developers',
                 'tst_flags': 'notest',
                 'user': 'LongNguyen1984',
                 'version': '0.0.1'},
-  'syms': {'hello_nbdev.core': {'hello_nbdev.core.say_hello': 'https://LongNguyen1984.github.io/hello_nbdev/core.html#say_hello'}}}
+  'syms': { 'hello_nbdev.core': { 'hello_nbdev.core.HelloSayer': 'https://LongNguyen1984.github.io/hello_nbdev/core.html#hellosayer',
+                                  'hello_nbdev.core.HelloSayer.say': 'https://LongNguyen1984.github.io/hello_nbdev/core.html#hellosayer.say',
+                                  'hello_nbdev.core.say_hello': 'https://LongNguyen1984.github.io/hello_nbdev/core.html#say_hello'}}}
